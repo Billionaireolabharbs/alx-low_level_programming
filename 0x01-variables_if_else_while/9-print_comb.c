@@ -1,15 +1,15 @@
 #include <stdio.h>
 /**
- * main: single digits
+ * main - single digits
  * Description: program that prints all possible combinations
  * Return: 0
  */
 int main(void)
 {
 	int c;
-	
+
 	for (c = 48; c <= 57; c++)
-{
+	{
 	putchar(c);
 	if (c != 57)
 	{
