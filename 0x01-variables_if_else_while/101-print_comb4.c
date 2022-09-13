@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 /**
  * main - three digits
  * Description: program that prints all possible different combinations
