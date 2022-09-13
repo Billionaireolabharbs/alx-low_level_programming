@@ -3,11 +3,12 @@
  * main - alphabet
  *
  * Description: print the alphabet in lowercase, and then in uppercase
- * return: 0
+ * Return: 0
  */
 int main(void)
 {
 	char ch;
+
 	for (ch = 'a' ; ch <= 'z' ; ch++)
 {
 	putchar(ch);
