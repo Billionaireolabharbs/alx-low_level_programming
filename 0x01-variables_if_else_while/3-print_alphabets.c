@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- * main - print if the number is positive, zero, or negative
- * Description: using the main function
- * this program prints "Programming is postive, zero, or negative
- * Return:0
+ * main - alphabet
+ *
+ * Description: print the alphabet in lowercase, and then in uppercase
+ * return: 0
  */
 int main(void)
 {
@@ -12,9 +12,10 @@ int main(void)
 {
 	putchar(ch);
 }
-for (ch = 'A' ; ch <= "Z' ; ch++)
+for (ch = 'A' ; ch <= 'Z' ; ch++)
 {
 	putchar(ch);
 }
-putchar('\n');
-return (0);
+	putchar('\n');
+	return (0);
+}
