@@ -7,8 +7,8 @@
  */
 int len(char *str)
 {
-		int len = 0
-
+		int len = 0;
+		
 		if (str != NULL)
 		{
 			while (str[len])
@@ -42,8 +42,8 @@ char *argstostr(int ac, char **av)
 		while (k < i)
 		{
 			for (j = 0; av[k][j] != '\0'; j++)
-				new_string[j + temp] = av[k][j]
-			new_string[temp + j] = '\n'
+				new_string[j + temp] = av[k][j];
+			new_string[temp + j] = '\n';
 			temp += (j + 1);
 			k++;
 		}
