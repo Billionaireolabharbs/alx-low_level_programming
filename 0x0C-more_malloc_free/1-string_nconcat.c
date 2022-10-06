@@ -1,13 +1,13 @@
-#include <stdlib.h>
-#include <stdio.h>
 #include "main.h"
+#include <stdlib.h>
+
 /**
- * string_nconcat - len of 1st str, len of 2nd str, if n < 2nd, 2nd = n
- * 2nd + 1st = total len, malloc + null byte, loop to insert into temp arr
- * @s1: input one
- * @s2: input two
- * @n: s2's number of bytes
- * Return: 0
+ * string_nconcat -concatenates two strings
+ * @s1: first string to copy
+ * @s2: second string to copy
+ * @n: number of bytres of s2 to copy
+ *
+ * Return: char pointer to newly allocated place in memory
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
